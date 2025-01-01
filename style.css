@@ -58,3 +58,9 @@ box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     display: none;
 
 }
+@media (max-width: 768px) {
+            body {
+                max-width: 100%; /* Adjust for smaller screens */
+                padding: 10px;
+            }
+        }
