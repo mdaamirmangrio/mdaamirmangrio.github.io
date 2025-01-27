@@ -56,12 +56,13 @@ services.forEach(service => {
 
 // Skills Data
 const skills = [
-    { name: "Computer Vision", level: 95 },
+    { name: "Computer Programming", level: 90 },
     { name: "Deep Learning", level: 85 },
-    { name: "Full Stack Development", level: 85 },
-    { name: "CSS/SASS", level: 90 },
-    { name: "HTML/CSS", level: 95 },
-    { name: "JavaScript", level: 90 },
+    { name: "Web Development", level: 85 },
+    { name: "C++", level: 50 },
+    { name: "Java", level: 70 },
+    { name: "HTML/CSS", level: 90 },
+    { name: "JavaScript", level: 75 },
     { name: "WordPress", level: 85 },
     { name: "Theory Of Computation", level: 85 },
     { name: "Bootstrap", level: 90 },
