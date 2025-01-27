@@ -205,15 +205,22 @@ body {
     transform: translateY(-3px) rotate(360deg);
 }
 
-.github:hover { background: #333; }
-.linkedin:hover { background: #0077b5; }
-.facebook:hover { background: #1877f2; }
-.twitter:hover { background: #1da1f2; }
-.instagram:hover { 
+.github { background: #333; }
+.linkedin { background: #0077b5; }
+.facebook { background: #1877f2; }
+.twitter { background: #1da1f2; }
+.instagram { 
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
-.youtube:hover { background: #ff0000; }
-.fiverr:hover { background: #1dbf73; }
+.youtube { background: #ff0000; }
+.fiverr { 
+    background: linear-gradient(45deg, #1e90ff, #00c853); 
+} /* Globe */
+
+.whatsapp { background: #25d366; } /* WhatsApp */
+.tiktok { 
+    background: linear-gradient( #333); 
+}
 
 /* Animations */
 @keyframes rotate {
