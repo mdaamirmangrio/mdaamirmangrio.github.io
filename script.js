@@ -16,25 +16,25 @@ document.querySelectorAll('.mobile-link').forEach(link => {
 // Services Data
 const services = [
     {
-        icon: '🔬',
+        imagePath: 'ai.png',
         title: 'Research & Development',
         description: 'Conducting research on cutting-edge technologies in AI, Machine Learning, and Computer Vision.',
         gradient: 'from-purple-500 to-pink-500'
     },
     {
-        icon: '☕',
+        imagePath: 'java.png',
         title: 'JAVA Development',
         description: 'Developing efficient and scalable applications using Java, focusing on robust backend logic.',
         gradient: 'from-blue-500 to-cyan-500'
     },
     {
-        icon: '🎨',
+        imagePath: 'web.png',
         title: 'Frontend Development',
         description: 'Building responsive and user-friendly web interfaces using modern frontend technologies.',
         gradient: 'from-green-500 to-teal-500'
     },
     {
-        icon: '✍️',
+        imagePath: 'blog.png',
         title: 'Blogger Customization',
         description: 'Creating customized and visually appealing blogs on Blogger by modifying templates.',
         gradient: 'from-orange-500 to-yellow-500'
@@ -47,7 +47,9 @@ services.forEach(service => {
     const serviceCard = document.createElement('div');
     serviceCard.className = 'service-card';
     serviceCard.innerHTML = `
-        <div class="text-4xl mb-4">${service.icon}</div>
+        <div class="mb-4">
+            <img src="${service.imagePath}" alt="${service.title}" class="w-16 h-16 object-cover rounded">
+        </div>
         <h3 class="text-xl font-semibold mb-2 gradient-text">${service.title}</h3>
         <p class="text-gray-400">${service.description}</p>
     `;
@@ -56,11 +58,11 @@ services.forEach(service => {
 
 // Skills Data
 const skills = [
-    { name: "Computer Programming", level: 90 },
+    { name: "Computer Programming", level: 95 },
     { name: "Deep Learning", level: 85 },
     { name: "Web Development", level: 85 },
     { name: "C++", level: 50 },
-    { name: "Java", level: 70 },
+    { name: "Java", level: 80 },
     { name: "HTML/CSS", level: 90 },
     { name: "JavaScript", level: 75 },
     { name: "WordPress", level: 85 },
