@@ -90,8 +90,8 @@ skills.forEach(skill => {
 const education = [
     {
         school: "Shah Abdul Latif University, Khairpur",
-        period: "2020 - Present",
-        details: "Currently pursuing a degree in Computer Science. Now I am in 3rd Semester."
+        period: "2024 - Present",
+        details: "Currently pursuing a degree in Computer Science. Now I am in 2nd Semester."
     },
     {
         school: "Govt. Superior Science College Khairpur Mir's",
