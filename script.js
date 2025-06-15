@@ -79,7 +79,7 @@ const certificates = [
 
   },
     {
-    imagePath: "certificates/blog.jpg",
+    imagePath: "certificates/Blog.jpg",
     title: "Blog Writing and Communication skills",
     institute: "Google",
     completionDate: "July 2023",
